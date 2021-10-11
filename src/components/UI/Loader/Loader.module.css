@@ -1,0 +1,20 @@
+.loader {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 3px dashed teal;
+	/* анимация линейная бесконечная вращение за 1сек */
+	animation: rotate 1s infinite linear;
+}
+
+/* ключевые	кадры	анимации	указываются с помощью @keyframes, здесь два ключевых кадра начало-from и конец-to 
+rotate - вращение, scale - масштабирование
+*/
+@keyframes rotate {
+	from {
+		transform: rotate(0deg) scale(1);
+	}
+	to {
+		transform: rotate(360deg) scale(1.4);
+	}
+}
