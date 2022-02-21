@@ -17,6 +17,7 @@ function Navbar() {
         <Link to="/about">О сайте</Link>
         <Link to="/posts">Посты</Link>
         <Link to="/posts">Новая ссылка</Link>
+        <Link to="/posts">Новая ссылка</Link>
       </div>
     </div>
   );
