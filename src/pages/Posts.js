@@ -72,7 +72,7 @@ useObserver(lastElement,page<totalPages,isPostsLoading, ()=>{
 			<MyButton
 				style={{ marginTop: 30 }}
 				onClick={() => setModal(true)}>
-				Создать пользователя
+				Создать пост
 			</MyButton>
 			<MyModal
 				visible={modal}
@@ -100,7 +100,7 @@ useObserver(lastElement,page<totalPages,isPostsLoading, ()=>{
 			{postError &&
 				<h1>Произошла ошибка {postError}</h1>}
 				 <PostList remove={removePost} posts={sortedAndSearchedPosts} title={'Посты про JS'} />
-				 <div ref ={lastElement}style={{height:20,backgroundColor:'red'}}></div>
+				 <div ref ={lastElement}></div>
 			{isPostsLoading &&
 			 <div style={{ display: "flex", justifyContent: "center", marginTop: '50px' }}><Loader /></div>
 			}

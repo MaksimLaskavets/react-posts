@@ -14,7 +14,7 @@ const router = useHistory()
 				<div>{props.post.body}</div>
 			</div>
 			<div className='post__btns'>
-			<MyButton
+			<MyButton style={{backgroundColor:"rgba(179, 125, 55, 0.932)"}}
 			 onClick={() => router.push(`/posts/${props.post.id}`)}
 			 >
 					Открыть

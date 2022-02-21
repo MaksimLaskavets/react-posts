@@ -8,7 +8,7 @@ function MySelect({ options, defaultValue, value, onChange }) {
 
 	return (
 
-		<select
+		<select style={{borderRadius:'10px'}}
 			value={value}
 			onChange={event => onChange(event.target.value)} >
 			<option disabled value=''>{defaultValue}</option>

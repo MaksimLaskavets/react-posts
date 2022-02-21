@@ -18,9 +18,11 @@
 	display: flex;
 	padding: 15px;
 	border: 2px solid green;
+	border-radius: 15px;
 	margin-top: 15px;
 	justify-content: space-between;
 	align-items: center;
+	background-color: rgba(5, 148, 117, 0.781);
 }
 
 .remove-btn {
